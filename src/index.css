@@ -1,13 +1,45 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.badges-showcase {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.badge {
+    margin: 20px;
+    width: 300px;
+    border: 5px solid #365f86;
+    border-radius: 10px;
+}
+
+.badge-header {
+    padding: 10px;
+    background-color: #91d3e0;
+    color: #580606;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+}
+
+.badge-title {
+    font-size: 28px;
+    text-align: center;
+}
+
+.badge-title.master{
+color: red;
+}
+
+.badge-subtitle {
+    font-size: 18px;
+    text-align: center;
+}
+
+.badge-body {
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.badge-footer {
+    background-color: #19d9ea;
+    height: 10px;
 }

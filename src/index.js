@@ -2,16 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+const person =[
+	{'badge-title master': 'Учитель', 'badge-subtitle': "Constcode school", name: 'Алексей Данчин' },
+	{'badge-title': 'IT- ученик','badge-subtitle': "Constcode school", name: 'Куранков Сергей' },
+	{'badge-title': 'HELLO','badge-subtitle': "MY NAME IS", name: 'Сергей Воронин' },
+	{'badge-title': 'HI','badge-subtitle': "MY NAME IS", name: 'Тимофей Мяги' },
+]
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App person={person} />
+
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

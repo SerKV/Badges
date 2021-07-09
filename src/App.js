@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+/**
+				master-class не смотрел будет сюрприз :)
+**/
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App (props) {
+	return props.person.map(el => {
+		return <div key={el.name} className="badges-showcase">
+			<div className="badge">
+				<div className="badge-header">
+					<div className="badge-title master">{el['badge-title master']}</div>
+					<div className="badge-title">{el['badge-title']}</div>
+					<div className="badge-subtitle">{el['badge-subtitle']}</div>
+				</div>
+				<div className="badge-body">{el['name']}</div>
+				<div className="badge-footer"/>
+			</div>
+		</div>;
+	});
+
 }
 
 export default App;
