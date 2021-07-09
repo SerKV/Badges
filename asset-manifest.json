@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Badges/static/css/main.f694c4fc.chunk.css",
-    "main.js": "/Badges/static/js/main.2c00aea3.chunk.js",
-    "main.js.map": "/Badges/static/js/main.2c00aea3.chunk.js.map",
+    "main.css": "/Badges/static/css/main.d9446e02.chunk.css",
+    "main.js": "/Badges/static/js/main.4e50c19e.chunk.js",
+    "main.js.map": "/Badges/static/js/main.4e50c19e.chunk.js.map",
     "runtime-main.js": "/Badges/static/js/runtime-main.03a2757f.js",
     "runtime-main.js.map": "/Badges/static/js/runtime-main.03a2757f.js.map",
     "static/js/2.1b49f117.chunk.js": "/Badges/static/js/2.1b49f117.chunk.js",
     "static/js/2.1b49f117.chunk.js.map": "/Badges/static/js/2.1b49f117.chunk.js.map",
     "index.html": "/Badges/index.html",
-    "static/css/main.f694c4fc.chunk.css.map": "/Badges/static/css/main.f694c4fc.chunk.css.map",
+    "static/css/main.d9446e02.chunk.css.map": "/Badges/static/css/main.d9446e02.chunk.css.map",
     "static/js/2.1b49f117.chunk.js.LICENSE.txt": "/Badges/static/js/2.1b49f117.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.03a2757f.js",
     "static/js/2.1b49f117.chunk.js",
-    "static/css/main.f694c4fc.chunk.css",
-    "static/js/main.2c00aea3.chunk.js"
+    "static/css/main.d9446e02.chunk.css",
+    "static/js/main.4e50c19e.chunk.js"
   ]
 }
